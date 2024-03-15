@@ -11,7 +11,7 @@
 
 ## Usage
 -When the user enters onto the page there is a navigation bar on the top right that will guide the user to different sections on the page such as , About me, Projects & Contact Info. When the user clicks on one of the boxes in the project section they are sent dirrectly to the project in a new window. When taken to the Contact info section at the bottom of the page there are two hyper links. One is to my Github profile and the other is to my Linkedin profile. 
--[Screen shot of portfolio site](./screencapture-file-Users-maxwell-Documents-fullstack-repos-Portfolio-index-html-2024-03-13-13_30_32.png) 
+-[Screen shot of portfolio site](./screencapture-maxwellmitchell93-github-io-Portfolio-2024-03-14-21_49_08.png)
 
 -[Link to deployed application] https://maxwellmitchell93.github.io/Portfolio/
 ## License 
