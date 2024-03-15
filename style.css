@@ -7,13 +7,19 @@
 }
 /* add img width and height */
  header img{
- width: 250px
+ width: 250px;
+ border-radius: 50%;
+ 
  }
  body {
     margin: 0;
     width: 100vw;
     height: 100vh;
  } 
+
+ .hyper img {
+    width:50px
+ }
 
  
 
@@ -212,7 +218,7 @@ form {
     margin: 0 auto;
   width: 1000px;
   padding: 10px;
-  border: 5px solid #DDAF94;
+  border: 5px solid #000000;
   border-radius: 20px;
 }
 .text-center{
