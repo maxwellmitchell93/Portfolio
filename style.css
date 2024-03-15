@@ -1,5 +1,5 @@
 .header {
-    background-color: #2da490f0;
+    
     font-family: Palatino, URW Palladio L, serif;
     color: #e0e0e0;
     padding-left: 5px;
@@ -7,7 +7,9 @@
 }
 /* add img width and height */
  header img{
- width: 300px
+ width: 250px
+ 
+
  
 } 
 
@@ -17,6 +19,7 @@ h2 {
 
 .topnav {
     overflow: hidden;
+    ;
 }
 
 .topnav a {
@@ -26,15 +29,16 @@ h2 {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    display:flex;
+    justify-content: flex-end;
 
 }
 
 .topnav a:hover {
-    color: #343636;
+    color: #2da490f0;
 }
 
 .topnav a.active {
-    background-color: #04aa6d;
     color: lavender;
 
 
@@ -47,36 +51,50 @@ body {
 
 a {
     text-decoration: none;
-    color: #2da490f0;
+    color: lavender;
 }
 
 .contact {
     font-size: 20px;
-    color: #000000f0;
-    padding-left: 5px;
-    padding-top: 2px;
-    padding-bottom: 1px;
+    color: #DDAF94;
     font-family: Palatino, URW Palladio L, serif;
 
 }
+.form ul li{
+    list-style-type: none;
+    text-align: center;
+    font-size: 35px;
+    
+}
+.text-center button:hover {
+    background-color:#2da490f0;
 
-.contact a:hover {
-    background-color: black;
+}
+
+.hyper a:hover {
+    background-color: #2da490f0;
     padding-top: 2px;
     padding-left: 2px;
     padding-right: 2px;
+    padding-bottom: 2px;
 
 
 }
 
-.contact ul {
+.hyper ul {
     list-style-type: none;
+    overflow: hidden;
 }
 
-.contact ul li {
-    display: inline-block;
-    margin-left: 280px;
+.hyper ul li {
+   float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding-left: 40px; 
+    text-decoration: none;
     font-size: 25px;
+    display:flex;
+    justify-content: flex-end;
     font-family: Palatino, URW Palladio L, serif;
     
 
@@ -84,31 +102,38 @@ a {
 
 .about-me {
     font-family: Palatino, URW Palladio L, serif;
-    color: #000000;
-    
+    color: #343636;
+    background-color:#2da490f0;
+    width:fit-content;
     padding-top: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
     display: block;
+    font-size: 20px;
     
 }
 
 .about-me-p {
     text-align: center;
     text-indent: 2%;
-    font-size: 25px;
+    font-size: 45px;
     font-family: "Playfair Display", serif;
     color: #c5e2ddf0;
 }
 
 .projects {
     font-family: Palatino, URW Palladio L, serif;
-    color: #000000;
+    color: #343636;
+    background-color:#2da490f0;
+    width:fit-content;
+    font-size: 20px;
     
 }
 
 .large-box {
     border-style: solid;
-    width: 1050px;
-    height: 350px;
+    width: 1000px;
+    height: 250px;
     border-width: 3px;
     padding: 10px;
     margin: 15px;
@@ -174,7 +199,7 @@ a {
 }
 form {
     margin: 0 auto;
-  width: 500px;
+  width: 1000px;
   padding: 10px;
   border: 5px solid #DDAF94;
   border-radius: 20px;
@@ -192,11 +217,8 @@ form {
 
 .footer{
     text-align: center;
-    display: block;
-    background-color:#2da490f0;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 20px;
+    font-size: 30px;
+   
     
 
 }
