@@ -8,10 +8,15 @@
 /* add img width and height */
  header img{
  width: 250px
- 
+ }
+ body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+ } 
 
  
-} 
+
 
 h2 {
     text-align: left;
