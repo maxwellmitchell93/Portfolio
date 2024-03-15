@@ -54,10 +54,16 @@ a {
     color: lavender;
 }
 
-.contact {
-    font-size: 20px;
-    color: #DDAF94;
+h2  {
     font-family: Palatino, URW Palladio L, serif;
+    color: #343636;
+    background-color:#2da490f0;
+    width:fit-content;
+    padding-top: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    display: block;
+    font-size: 30px;
 
 }
 .form ul li{
