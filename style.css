@@ -1,27 +1,38 @@
+:root {
+    --Dark: #363235;
+    --Light: #706c6f;
+
+}
+
 .header {
-    
+
     font-family: Palatino, URW Palladio L, serif;
     color: #e0e0e0;
     padding-left: 5px;
     text-align: center;
 }
+
 /* add img width and height */
- header img{
- width: 250px;
- border-radius: 50%;
- 
- }
- body {
+header img {
+    width: 250px;
+    border-radius: 50%;
+
+}
+html{
+    height: 100%;
+}
+body {
+    background-color: var(--Dark);
     margin: 0;
     width: 100vw;
     height: 100vh;
- } 
+}
 
- .hyper img {
-    width:50px
- }
+.hyper img {
+    width: 50px
+}
 
- 
+
 
 
 h2 {
@@ -40,7 +51,7 @@ h2 {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    display:flex;
+    display: flex;
     justify-content: flex-end;
 
 }
@@ -56,12 +67,12 @@ h2 {
 }
 
 body {
-    background-color: #343636;
+    
     margin: 0;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
 }
 
 
@@ -70,11 +81,11 @@ a {
     color: lavender;
 }
 
-h2  {
+h2 {
     font-family: Palatino, URW Palladio L, serif;
     color: #343636;
-    background-color:#2da490f0;
-    width:fit-content;
+    background-color: #2da490f0;
+    width: fit-content;
     padding-top: 0px;
     padding-left: 2px;
     padding-right: 2px;
@@ -82,14 +93,16 @@ h2  {
     font-size: 30px;
 
 }
-.form ul li{
+
+.form ul li {
     list-style-type: none;
     text-align: center;
     font-size: 35px;
-    
+
 }
+
 .text-center button:hover {
-    background-color:#2da490f0;
+    background-color: #2da490f0;
 
 }
 
@@ -110,36 +123,36 @@ h2  {
 }
 
 .hyper ul li {
-   float: left;
+    float: left;
     color: #f2f2f2;
     text-align: center;
-    padding-left: 40px; 
+    padding-left: 40px;
     text-decoration: none;
     font-size: 25px;
-    display:flex;
+    display: flex;
     justify-content: flex-end;
     font-family: Palatino, URW Palladio L, serif;
-    
+
 
 }
 
 .about-me {
     font-family: Palatino, URW Palladio L, serif;
     color: #343636;
-    background-color:#2da490f0;
-    width:fit-content;
+    background-color: #2da490f0;
+    width: fit-content;
     padding-top: 0px;
     padding-left: 2px;
     padding-right: 2px;
     display: block;
     font-size: 20px;
-    
+
 }
 
 .about-me-p {
     text-align: center;
     text-indent: 2%;
-    font-size: 45px;
+    font-size: 38px;
     font-family: "Playfair Display", serif;
     color: #c5e2ddf0;
 }
@@ -147,10 +160,10 @@ h2  {
 .projects {
     font-family: Palatino, URW Palladio L, serif;
     color: #343636;
-    background-color:#2da490f0;
-    width:fit-content;
+    background-color: #2da490f0;
+    width: fit-content;
     font-size: 20px;
-    
+
 }
 
 .large-box {
@@ -164,10 +177,10 @@ h2  {
     font-size: 23px;
 }
 
-.large-box img{
+.large-box img {
     width: 100%;
     height: 90%;
-    
+
 }
 
 .large-box:hover {
@@ -186,9 +199,10 @@ h2  {
     text-align: center;
     font-size: 23px;
 }
+
 .box1 img {
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
 }
 
 .box1:hover {
@@ -207,11 +221,12 @@ h2  {
     margin: 15px;
     text-align: center;
     font-size: 23px;
-    
+
 }
+
 .box2 img {
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
 }
 
 .box2:hover {
@@ -220,6 +235,7 @@ h2  {
     padding-left: 2px;
     padding-right: 2px;
 }
+
 .box3 {
     width: 350px;
     border-style: solid;
@@ -228,12 +244,13 @@ h2  {
     margin: 15px;
     text-align: center;
     font-size: 23px;
-    
-    
+
+
 }
+
 .box3 img {
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
 }
 
 .box3:hover {
@@ -242,31 +259,38 @@ h2  {
     padding-left: 2px;
     padding-right: 2px;
 }
+
 form {
     margin: 0 auto;
-  width: 1000px;
-  padding: 10px;
-  border: 5px solid #000000;
-  border-radius: 20px;
+    width: 1000px;
+    padding: 10px;
+    border: 5px solid #000000;
+    border-radius: 20px;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
 
-.text-right:hover{
+.text-right:hover {
     background-color: gray;
 
 }
-    
-   
 
-.footer{
+
+
+.footer {
     text-align: center;
     font-size: 30px;
-   
-    
+
+
 
 }
-@media screen and (max-width:600px) {
-    
+
+@media screen and (max-width: 768px) {
+
+    main,
+    body {
+        flex-direction: column;
+    }
 }
