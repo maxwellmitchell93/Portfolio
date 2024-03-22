@@ -4,6 +4,7 @@
 
 }
 
+
 .header {
 
     font-family: Palatino, URW Palladio L, serif;
@@ -12,7 +13,7 @@
     text-align: center;
 }
 
-/* add img width and height */
+
 header img {
     width: 250px;
     border-radius: 50%;
@@ -166,100 +167,40 @@ h2 {
 
 }
 
-.large-box {
-    border-style: solid;
-    width: 1000px;
+
+.box-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box {
     height: 250px;
-    border-width: 3px;
-    padding: 10px;
-    margin: 15px;
-    text-align: center;
-    font-size: 23px;
-}
-
-.large-box img {
-    width: 100%;
-    height: 90%;
-
-}
-
-.large-box:hover {
-    background-color: black;
-    padding-top: 2px;
-    padding-left: 2px;
-    padding-right: 2px;
-}
-
-.box1 {
     width: 350px;
     border-style: solid;
     border-width: 3px;
-    padding: 10px;
+    padding: 6px;
+    padding-bottom: 33px;
     margin: 15px;
     text-align: center;
     font-size: 23px;
 }
 
-.box1 img {
+.box img {
     width: 100%;
     height: 100%;
 }
 
-.box1:hover {
+.box:hover {
     background-color: black;
     padding-top: 2px;
     padding-left: 2px;
     padding-right: 2px;
 }
 
-
-.box2 {
-    width: 350px;
-    border-style: solid;
-    border-width: 3px;
-    padding: 10px;
-    margin: 15px;
-    text-align: center;
-    font-size: 23px;
-
+.flex-container{
+    display:flex;
+    flex-wrap:wrap;
+    
 }
-
-.box2 img {
-    width: 100%;
-    height: 100%;
-}
-
-.box2:hover {
-    background-color: black;
-    padding-top: 2px;
-    padding-left: 2px;
-    padding-right: 2px;
-}
-
-.box3 {
-    width: 350px;
-    border-style: solid;
-    border-width: 3px;
-    padding: 10px;
-    margin: 15px;
-    text-align: center;
-    font-size: 23px;
-
-
-}
-
-.box3 img {
-    width: 100%;
-    height: 100%;
-}
-
-.box3:hover {
-    background-color: black;
-    padding-top: 2px;
-    padding-left: 2px;
-    padding-right: 2px;
-}
-
 form {
     margin: 0 auto;
     width: 1000px;
